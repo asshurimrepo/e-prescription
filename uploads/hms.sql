@@ -25,7 +25,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- Table structure for table `accountant`
 --
 
-DROP TABLE IF EXISTS `accountant`;
+-- DROP TABLE IF EXISTS `accountant`;
 CREATE TABLE IF NOT EXISTS `accountant` (
   `accountant_id` int(11) NOT NULL auto_increment,
   `name` longtext character set utf8 collate utf8_unicode_ci NOT NULL,
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `accountant` (
 -- Table structure for table `admin`
 --
 
-DROP TABLE IF EXISTS `admin`;
+-- DROP TABLE IF EXISTS `admin`;
 CREATE TABLE IF NOT EXISTS `admin` (
   `admin_id` int(11) NOT NULL auto_increment,
   `name` longtext character set utf8 collate utf8_unicode_ci NOT NULL,
@@ -59,7 +59,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 -- Table structure for table `appointment`
 --
 
-DROP TABLE IF EXISTS `appointment`;
+-- DROP TABLE IF EXISTS `appointment`;
 CREATE TABLE IF NOT EXISTS `appointment` (
   `appointment_id` int(11) NOT NULL auto_increment,
   `appointment_timestamp` int(11) NOT NULL,
@@ -74,7 +74,7 @@ CREATE TABLE IF NOT EXISTS `appointment` (
 -- Table structure for table `bed`
 --
 
-DROP TABLE IF EXISTS `bed`;
+-- DROP TABLE IF EXISTS `bed`;
 CREATE TABLE IF NOT EXISTS `bed` (
   `bed_id` int(11) NOT NULL auto_increment,
   `bed_number` longtext character set utf8 collate utf8_unicode_ci NOT NULL,
@@ -90,7 +90,7 @@ CREATE TABLE IF NOT EXISTS `bed` (
 -- Table structure for table `bed_allotment`
 --
 
-DROP TABLE IF EXISTS `bed_allotment`;
+-- DROP TABLE IF EXISTS `bed_allotment`;
 CREATE TABLE IF NOT EXISTS `bed_allotment` (
   `bed_allotment_id` int(11) NOT NULL auto_increment,
   `bed_id` int(11) NOT NULL,
@@ -106,7 +106,7 @@ CREATE TABLE IF NOT EXISTS `bed_allotment` (
 -- Table structure for table `blood_bank`
 --
 
-DROP TABLE IF EXISTS `blood_bank`;
+-- DROP TABLE IF EXISTS `blood_bank`;
 CREATE TABLE IF NOT EXISTS `blood_bank` (
   `blood_group_id` int(11) NOT NULL auto_increment,
   `blood_group` longtext character set utf8 collate utf8_unicode_ci NOT NULL,
@@ -134,7 +134,7 @@ INSERT INTO `blood_bank` (`blood_group_id`, `blood_group`, `status`) VALUES
 -- Table structure for table `blood_donor`
 --
 
-DROP TABLE IF EXISTS `blood_donor`;
+-- DROP TABLE IF EXISTS `blood_donor`;
 CREATE TABLE IF NOT EXISTS `blood_donor` (
   `blood_donor_id` int(11) NOT NULL auto_increment,
   `name` longtext character set utf8 collate utf8_unicode_ci NOT NULL,
@@ -154,7 +154,7 @@ CREATE TABLE IF NOT EXISTS `blood_donor` (
 -- Table structure for table `department`
 --
 
-DROP TABLE IF EXISTS `department`;
+-- DROP TABLE IF EXISTS `department`;
 CREATE TABLE IF NOT EXISTS `department` (
   `department_id` int(11) NOT NULL auto_increment,
   `name` longtext character set utf8 collate utf8_unicode_ci NOT NULL,
@@ -168,7 +168,7 @@ CREATE TABLE IF NOT EXISTS `department` (
 -- Table structure for table `diagnosis_report`
 --
 
-DROP TABLE IF EXISTS `diagnosis_report`;
+-- DROP TABLE IF EXISTS `diagnosis_report`;
 CREATE TABLE IF NOT EXISTS `diagnosis_report` (
   `diagnosis_report_id` int(11) NOT NULL auto_increment,
   `report_type` longtext collate utf8_unicode_ci NOT NULL COMMENT 'xray,blood test',
@@ -187,7 +187,7 @@ CREATE TABLE IF NOT EXISTS `diagnosis_report` (
 -- Table structure for table `doctor`
 --
 
-DROP TABLE IF EXISTS `doctor`;
+-- DROP TABLE IF EXISTS `doctor`;
 CREATE TABLE IF NOT EXISTS `doctor` (
   `doctor_id` int(11) NOT NULL auto_increment,
   `name` longtext character set utf8 collate utf8_unicode_ci NOT NULL,
@@ -206,7 +206,7 @@ CREATE TABLE IF NOT EXISTS `doctor` (
 -- Table structure for table `email_template`
 --
 
-DROP TABLE IF EXISTS `email_template`;
+-- DROP TABLE IF EXISTS `email_template`;
 CREATE TABLE IF NOT EXISTS `email_template` (
   `email_template_id` int(11) NOT NULL auto_increment,
   `task` longtext character set latin1 NOT NULL,
@@ -221,7 +221,7 @@ CREATE TABLE IF NOT EXISTS `email_template` (
 -- Table structure for table `invoice`
 --
 
-DROP TABLE IF EXISTS `invoice`;
+-- DROP TABLE IF EXISTS `invoice`;
 CREATE TABLE IF NOT EXISTS `invoice` (
   `invoice_id` int(11) NOT NULL auto_increment,
   `patient_id` int(11) NOT NULL,
@@ -239,7 +239,7 @@ CREATE TABLE IF NOT EXISTS `invoice` (
 -- Table structure for table `laboratorist`
 --
 
-DROP TABLE IF EXISTS `laboratorist`;
+-- DROP TABLE IF EXISTS `laboratorist`;
 CREATE TABLE IF NOT EXISTS `laboratorist` (
   `laboratorist_id` int(11) NOT NULL auto_increment,
   `name` longtext character set utf8 collate utf8_unicode_ci NOT NULL,
@@ -256,7 +256,7 @@ CREATE TABLE IF NOT EXISTS `laboratorist` (
 -- Table structure for table `language`
 --
 
-DROP TABLE IF EXISTS `language`;
+-- DROP TABLE IF EXISTS `language`;
 CREATE TABLE IF NOT EXISTS `language` (
   `phrase_id` int(11) NOT NULL auto_increment,
   `phrase` longtext collate utf8_unicode_ci NOT NULL,
@@ -295,7 +295,7 @@ CREATE TABLE IF NOT EXISTS `language` (
 -- Table structure for table `log`
 --
 
-DROP TABLE IF EXISTS `log`;
+-- DROP TABLE IF EXISTS `log`;
 CREATE TABLE IF NOT EXISTS `log` (
   `log_id` int(11) NOT NULL auto_increment,
   `type` longtext character set utf8 collate utf8_unicode_ci NOT NULL,
@@ -314,7 +314,7 @@ CREATE TABLE IF NOT EXISTS `log` (
 -- Table structure for table `medicine`
 --
 
-DROP TABLE IF EXISTS `medicine`;
+-- DROP TABLE IF EXISTS `medicine`;
 CREATE TABLE IF NOT EXISTS `medicine` (
   `medicine_id` int(11) NOT NULL auto_increment,
   `name` longtext collate utf8_unicode_ci NOT NULL,
@@ -332,7 +332,7 @@ CREATE TABLE IF NOT EXISTS `medicine` (
 -- Table structure for table `medicine_category`
 --
 
-DROP TABLE IF EXISTS `medicine_category`;
+-- DROP TABLE IF EXISTS `medicine_category`;
 CREATE TABLE IF NOT EXISTS `medicine_category` (
   `medicine_category_id` int(11) NOT NULL auto_increment,
   `name` longtext collate utf8_unicode_ci NOT NULL,
@@ -346,7 +346,7 @@ CREATE TABLE IF NOT EXISTS `medicine_category` (
 -- Table structure for table `message`
 --
 
-DROP TABLE IF EXISTS `message`;
+-- DROP TABLE IF EXISTS `message`;
 CREATE TABLE IF NOT EXISTS `message` (
   `message_id` int(11) NOT NULL,
   `message` longtext collate utf8_unicode_ci NOT NULL,
@@ -364,7 +364,7 @@ CREATE TABLE IF NOT EXISTS `message` (
 -- Table structure for table `noticeboard`
 --
 
-DROP TABLE IF EXISTS `noticeboard`;
+-- DROP TABLE IF EXISTS `noticeboard`;
 CREATE TABLE IF NOT EXISTS `noticeboard` (
   `notice_id` int(11) NOT NULL auto_increment,
   `notice_title` longtext collate utf8_unicode_ci NOT NULL,
@@ -379,7 +379,7 @@ CREATE TABLE IF NOT EXISTS `noticeboard` (
 -- Table structure for table `nurse`
 --
 
-DROP TABLE IF EXISTS `nurse`;
+-- DROP TABLE IF EXISTS `nurse`;
 CREATE TABLE IF NOT EXISTS `nurse` (
   `nurse_id` int(11) NOT NULL auto_increment,
   `name` longtext character set utf8 collate utf8_unicode_ci NOT NULL,
@@ -396,7 +396,7 @@ CREATE TABLE IF NOT EXISTS `nurse` (
 -- Table structure for table `patient`
 --
 
-DROP TABLE IF EXISTS `patient`;
+-- DROP TABLE IF EXISTS `patient`;
 CREATE TABLE IF NOT EXISTS `patient` (
   `patient_id` int(11) NOT NULL auto_increment,
   `name` longtext collate utf8_unicode_ci NOT NULL,
@@ -418,7 +418,7 @@ CREATE TABLE IF NOT EXISTS `patient` (
 -- Table structure for table `payment`
 --
 
-DROP TABLE IF EXISTS `payment`;
+-- DROP TABLE IF EXISTS `payment`;
 CREATE TABLE IF NOT EXISTS `payment` (
   `payment_id` int(11) NOT NULL auto_increment,
   `payment_type` longtext collate utf8_unicode_ci NOT NULL,
@@ -438,7 +438,7 @@ CREATE TABLE IF NOT EXISTS `payment` (
 -- Table structure for table `pharmacist`
 --
 
-DROP TABLE IF EXISTS `pharmacist`;
+-- DROP TABLE IF EXISTS `pharmacist`;
 CREATE TABLE IF NOT EXISTS `pharmacist` (
   `pharmacist_id` int(11) NOT NULL auto_increment,
   `name` longtext character set utf8 collate utf8_unicode_ci NOT NULL,
@@ -455,7 +455,7 @@ CREATE TABLE IF NOT EXISTS `pharmacist` (
 -- Table structure for table `prescription`
 --
 
-DROP TABLE IF EXISTS `prescription`;
+-- DROP TABLE IF EXISTS `prescription`;
 CREATE TABLE IF NOT EXISTS `prescription` (
   `prescription_id` int(11) NOT NULL auto_increment,
   `creation_timestamp` int(11) NOT NULL,
@@ -474,7 +474,7 @@ CREATE TABLE IF NOT EXISTS `prescription` (
 -- Table structure for table `report`
 --
 
-DROP TABLE IF EXISTS `report`;
+-- DROP TABLE IF EXISTS `report`;
 CREATE TABLE IF NOT EXISTS `report` (
   `report_id` int(11) NOT NULL auto_increment,
   `type` longtext collate utf8_unicode_ci NOT NULL COMMENT 'operation,birth,death',
@@ -491,7 +491,7 @@ CREATE TABLE IF NOT EXISTS `report` (
 -- Table structure for table `settings`
 --
 
-DROP TABLE IF EXISTS `settings`;
+-- DROP TABLE IF EXISTS `settings`;
 CREATE TABLE IF NOT EXISTS `settings` (
   `settings_id` int(11) NOT NULL auto_increment,
   `type` longtext character set utf8 collate utf8_unicode_ci NOT NULL,
