@@ -27,8 +27,8 @@
                         </li>-->
                         <li class="sparkline-row">
                             <h4 class="green">
-                                <span><?php echo get_phrase('nurse');?></span> 
-                                <?php echo $this->db->count_all_results('nurse');?>
+                                <span><?php echo get_phrase('pharmacist');?></span> 
+                                <?php echo $this->db->count_all_results('pharmacist');?>
                             </h4>
                         </li>
                     </ul>

@@ -17,107 +17,23 @@
                         <span><?php echo get_phrase('patient');?></span>
                         </a>
                     </div>
-                    <div class="span2 action-nav-button">
-                        <a href="<?php echo base_url();?>index.php?admin/manage_nurse">
-                        <i class="icon-plus-sign-alt"></i>
-                        <span><?php echo get_phrase('nurse');?></span>
-                        </a>
-                    </div>
+                    `
                     <div class="span2 action-nav-button">
                         <a href="<?php echo base_url();?>index.php?admin/manage_pharmacist">
                         <i class="icon-medkit"></i>
                         <span><?php echo get_phrase('pharmacist');?></span>
                         </a>
                     </div>
-                    <div class="span2 action-nav-button">
-                        <a href="<?php echo base_url();?>index.php?admin/manage_laboratorist">
-                        <i class="icon-beaker"></i>
-                        <span><?php echo get_phrase('laboratorist');?></span>
-                        </a>
-                    </div>
-                    <div class="span2 action-nav-button">
-                        <a href="<?php echo base_url();?>index.php?admin/manage_accountant">
-                        <i class="icon-money"></i>
-                        <span><?php echo get_phrase('accountant');?></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="row-fluid">
-                    <div class="span2 action-nav-button">
-                        <a href="<?php echo base_url();?>index.php?admin/view_appointment">
-                        <i class="icon-exchange"></i>
-                        <span><?php echo get_phrase('appointment');?></span>
-                        </a>
-                    </div>
-                    <div class="span2 action-nav-button">
-                        <a href="<?php echo base_url();?>index.php?admin/view_payment">
-                        <i class="icon-credit-card"></i>
-                        <span><?php echo get_phrase('payment');?></span>
-                        </a>
-                    </div>
-                    <div class="span2 action-nav-button">
-                        <a href="<?php echo base_url();?>index.php?admin/view_blood_bank">
-                        <i class="icon-tint"></i>
-                        <span><?php echo get_phrase('blood_bank');?></span>
-                        </a>
-                    </div>
+
+
                     <div class="span2 action-nav-button">
                         <a href="<?php echo base_url();?>index.php?admin/view_medicine">
                         <i class="icon-medkit"></i>
                         <span><?php echo get_phrase('medicine');?></span>
                         </a>
                     </div>
-                    <div class="span2 action-nav-button">
-                        <a href="<?php echo base_url();?>index.php?admin/view_report/operation">
-                        <i class="icon-reorder"></i>
-                        <span><?php echo get_phrase('operation_report');?></span>
-                        </a>
-                    </div>
-                    <div class="span2 action-nav-button">
-                        <a href="<?php echo base_url();?>index.php?admin/view_report/birth">
-                        <i class="icon-github-alt"></i>
-                        <span><?php echo get_phrase('birth_report');?></span>
-                        </a>
-                    </div>
                 </div>
-                <div class="row-fluid">
-                    <div class="span2 action-nav-button">
-                        <a href="<?php echo base_url();?>index.php?admin/view_report/death">
-                        <i class="icon-minus-sign"></i>
-                        <span><?php echo get_phrase('death_report');?></span>
-                        </a>
-                    </div>
-                    <div class="span2 action-nav-button">
-                        <a href="<?php echo base_url();?>index.php?admin/view_bed_status">
-                        <i class="icon-hdd"></i>
-                        <span><?php echo get_phrase('bed_allotment');?></span>
-                        </a>
-                    </div>
-                    <div class="span2 action-nav-button">
-                        <a href="<?php echo base_url();?>index.php?admin/manage_noticeboard">
-                        <i class="icon-columns"></i>
-                        <span><?php echo get_phrase('noticeboard');?></span>
-                        </a>
-                    </div>
-                    <div class="span2 action-nav-button">
-                        <a href="<?php echo base_url();?>index.php?admin/system_settings">
-                        <i class="icon-h-sign"></i>
-                        <span><?php echo get_phrase('settings');?></span>
-                        </a>
-                    </div>
-                    <div class="span2 action-nav-button">
-                        <a href="<?php echo base_url();?>index.php?admin/manage_language">
-                        <i class="icon-globe"></i>
-                        <span><?php echo get_phrase('language');?></span>
-                        </a>
-                    </div>
-                    <div class="span2 action-nav-button">
-                        <a href="<?php echo base_url();?>index.php?admin/backup_restore">
-                        <i class="icon-download-alt"></i>
-                        <span><?php echo get_phrase('backup');?></span>
-                        </a>
-                    </div>
-                </div>
+
             </div>
         </div>
         <!---DASHBOARD MENU BAR ENDS HERE-->
