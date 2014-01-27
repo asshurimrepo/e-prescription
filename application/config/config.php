@@ -293,7 +293,7 @@ $config['global_xss_filtering'] = TRUE;
 | 'csrf_cookie_name' = The cookie name
 | 'csrf_expire' = The number in seconds the token should expire.
 */
-$config['csrf_protection'] = TRUE;
+$config['csrf_protection'] = FALSE;
 $config['csrf_token_name'] = 'authenticity_token';
 $config['csrf_cookie_name'] = 'bayanno_hospital_management_system_pro';
 $config['csrf_expire'] = 7200;
