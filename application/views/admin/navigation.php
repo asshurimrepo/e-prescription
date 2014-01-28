@@ -14,7 +14,6 @@
 	<ul class="nav nav-collapse collapse nav-collapse-primary">
     
         
-        <!------dashboard----->
 		<li class="<?php if($page_name == 'dashboard')echo 'dark-nav active';?>">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?admin/dashboard" >
@@ -23,16 +22,15 @@
 				</a>
 		</li>
         
-        <!------department----->
-		<li class="<?php if($page_name == 'manage_department')echo 'dark-nav active';?>">
+		<!-- <li class="<?php if($page_name == 'manage_department')echo 'dark-nav active';?>">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?admin/manage_department" >
 					<i class="icon-sitemap icon-2x"></i>
 					<span><?php echo get_phrase('department');?></span>
 				</a>
-		</li>
+		</li> -->
         
-        <!------doctor----->
+        <!-- doctor -->
 		<li class="<?php if($page_name == 'manage_doctor')echo 'dark-nav active';?>">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?admin/manage_doctor" >
@@ -41,7 +39,7 @@
 				</a>
 		</li>
         
-        <!------patient----->
+        <!--patient-->
 		<li class="<?php if($page_name == 'manage_patient')echo 'dark-nav active';?>">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?admin/manage_patient" >
@@ -50,7 +48,7 @@
 				</a>
 		</li>
         
-        <!------nurse----->
+        <!--nurse-->
 		<li class="<?php if($page_name == 'manage_nurse')echo 'dark-nav active';?>">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?admin/manage_nurse" >
@@ -59,7 +57,7 @@
 				</a>
 		</li>
         
-        <!------pharmacist----->
+        <!--pharmacist-->
 		<li class="<?php if($page_name == 'manage_pharmacist')echo 'dark-nav active';?>">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?admin/manage_pharmacist" >
@@ -68,7 +66,7 @@
 				</a>
 		</li>
         
-        <!------laboratorist----->
+        <!--laboratorist-->
 		<li class="<?php if($page_name == 'manage_laboratorist')echo 'dark-nav active';?>">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?admin/manage_laboratorist" >
@@ -77,7 +75,7 @@
 				</a>
 		</li>
         
-        <!------accountant----->
+        <!--accountant-->
 		<li class="<?php if($page_name == 'manage_accountant')echo 'dark-nav active';?>">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?admin/manage_accountant" >
@@ -87,7 +85,7 @@
 		</li>
         
         
-		<!------manage hospital------>
+		<!--manage hospital----
 		<li class="dark-nav <?php if(	$page_name == 'view_appointment' 	|| 
 										$page_name == 'view_payment' 		|| 
 										$page_name == 'view_bed_status' 	|| 
@@ -150,7 +148,7 @@
 		</li>
         
         
-        <!------system settings------>
+        <!--system settings----
 		<li class="dark-nav <?php if(	$page_name == 'manage_email_template' 	|| 
 										$page_name == 'manage_noticeboard' 		||
 										$page_name == 'system_settings' 		|| 
@@ -195,7 +193,7 @@
             </ul>
 		</li>
 
-		<!------manage own profile--->
+		<!--manage own profile--->
 		<li class="<?php if($page_name == 'manage_profile')echo 'dark-nav active';?>">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?admin/manage_profile" >

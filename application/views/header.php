@@ -33,33 +33,6 @@
                 	<!-- Account Selector -->
 					</li>
 				</ul>
-				<ul class="nav pull-right">
-					<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo get_phrase('select_language');?><b class="caret"></b></a>
-					<!-- Language Selector -->
-                        <ul class="dropdown-menu">
-                            <?php
-                            $fields = $this->db->list_fields('language');
-                            foreach ($fields as $field)
-                            {
-                                if($field == 'phrase_id' || $field == 'phrase')continue;
-                                ?>
-                                    <li>
-                                        <a href="<?php echo base_url();?>index.php?multilanguage/select_language/<?php echo $field;?>">
-                                            <?php echo $field;?>
-                                            <?php //selecting current language
-                                                if($this->session->userdata('current_language') == $field):?>
-                                                    <i class="icon-ok"></i>
-                                            <?php endif;?>
-                                        </a>
-                                    </li>
-                                <?php
-                            }
-                            ?>
-                        </ul>
-                	<!-- Language Selector -->
-					</li>
-				</ul>
                 <ul class="nav pull-right">
 					<li class="dropdown">
 					<a href="#" ><i class="icon-user"></i><?php echo get_phrase($this->session->userdata('login_type')).' '.get_phrase('panel');?> </a>
