@@ -10,7 +10,7 @@
     <style>
         span.reference{
             position:fixed;
-            left:5px;
+            left:5px;  
             top:5px;
             font-size:10px;
             text-shadow:1px 1px 1px #fff;
