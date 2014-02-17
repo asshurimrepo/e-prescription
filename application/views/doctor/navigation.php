@@ -51,7 +51,7 @@
 		</li>
         
         <!------bed allotment----->
-		<li class="<?php if($page_name == 'manage_bed_allotment')echo 'dark-nav active';?>">
+		<li class="<?php if($page_name == 'manage_bed_allotment')echo 'dark-nav active';?>" style="display:none">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?doctor/manage_bed_allotment" >
 					<i class="icon-hdd icon-2x"></i>
@@ -60,7 +60,7 @@
 		</li>
         
         <!------blood bank----->
-		<li class="<?php if($page_name == 'view_blood_bank')echo 'dark-nav active';?>">
+		<li class="<?php if($page_name == 'view_blood_bank')echo 'dark-nav active';?>" style="display:none">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?doctor/view_blood_bank" >
 					<i class="icon-tint icon-2x"></i>
@@ -70,7 +70,7 @@
 
 		
 		<!------manage report--->
-		<li class="<?php if($page_name == 'manage_report')echo 'dark-nav active';?>">
+		<li class="<?php if($page_name == 'manage_report')echo 'dark-nav active';?>" style="display:none">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?doctor/manage_report" >
 					<i class="icon-hospital icon-2x"></i>

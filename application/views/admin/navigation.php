@@ -49,7 +49,7 @@
 		</li>
         
         <!--nurse-->
-		<li class="<?php if($page_name == 'manage_nurse')echo 'dark-nav active';?>">
+		<li class="<?php if($page_name == 'manage_nurse')echo 'dark-nav active';?> " style="display:none">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?admin/manage_nurse" >
 					<i class="icon-plus-sign-alt icon-2x"></i>
@@ -67,7 +67,7 @@
 		</li>
         
         <!--laboratorist-->
-		<li class="<?php if($page_name == 'manage_laboratorist')echo 'dark-nav active';?>">
+		<li class="<?php if($page_name == 'manage_laboratorist')echo 'dark-nav active';?>" style="display:none">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?admin/manage_laboratorist" >
 					<i class="icon-beaker icon-2x"></i>
@@ -76,7 +76,7 @@
 		</li>
         
         <!--accountant-->
-		<li class="<?php if($page_name == 'manage_accountant')echo 'dark-nav active';?>">
+		<li class="<?php if($page_name == 'manage_accountant')echo 'dark-nav active';?>" style="display:none">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?admin/manage_accountant" >
 					<i class="icon-money icon-2x"></i>
@@ -85,13 +85,13 @@
 		</li>
         
         
-		<!--manage hospital----
+		<!--manage hospital-->
 		<li class="dark-nav <?php if(	$page_name == 'view_appointment' 	|| 
 										$page_name == 'view_payment' 		|| 
 										$page_name == 'view_bed_status' 	|| 
 										$page_name == 'view_blood_bank' 	|| 
 										$page_name == 'view_medicine' 		|| 
-										$page_name == 'view_report'  )echo 'active';?>">
+										$page_name == 'view_report'  )echo 'active';?>" style="display:none">
 			<span class="glow"></span>
             <a class="accordion-toggle  " data-toggle="collapse" href="#view_hospital_submenu" >
                 <i class="icon-screenshot icon-2x"></i>
@@ -148,7 +148,7 @@
 		</li>
         
         
-        <!--system settings----
+        <!--system settings-->
 		<li class="dark-nav <?php if(	$page_name == 'manage_email_template' 	|| 
 										$page_name == 'manage_noticeboard' 		||
 										$page_name == 'system_settings' 		|| 
@@ -180,12 +180,12 @@
                       <i class="icon-h-sign"></i> <?php echo get_phrase('system_settings');?>
                   </a>
                 </li>
-                <li class="<?php if($page_name == 'manage_language')echo 'active';?>">
+                <li class="<?php if($page_name == 'manage_language')echo 'active';?>" style="display:none">
                   <a href="<?php echo base_url();?>index.php?admin/manage_language">
                       <i class="icon-globe"></i> <?php echo get_phrase('manage_language');?>
                   </a>
                 </li>
-                <li class="<?php if($page_name == 'backup_restore')echo 'active';?>">
+                <li class="<?php if($page_name == 'backup_restore')echo 'active';?>" style="display:none">
                   <a href="<?php echo base_url();?>index.php?admin/backup_restore">
                       <i class="icon-download-alt"></i> <?php echo get_phrase('backup_restore');?>
                   </a>
@@ -193,7 +193,7 @@
             </ul>
 		</li>
 
-		<!--manage own profile--->
+		<!--manage own profile-->
 		<li class="<?php if($page_name == 'manage_profile')echo 'dark-nav active';?>">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?admin/manage_profile" >

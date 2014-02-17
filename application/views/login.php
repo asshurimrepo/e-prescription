@@ -21,7 +21,7 @@
                 <div class="container-fluid">
                     <a class="brand" href="<?php echo base_url();?>"><?php echo $system_name;?></a>
                     
-                    <ul class="nav pull-right">
+                    <ul class="nav pull-right" style="display:none;">
                         <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Select Language <b class="caret"></b></a>
                         <!-- Language Selector -->
@@ -72,10 +72,10 @@
                                         <option value="admin"><?php echo get_phrase('admin');?></option>
                                         <option value="doctor"><?php echo get_phrase('doctor');?></option>
                                         <option value="patient"><?php echo get_phrase('patient');?></option>
-                                        <option value="nurse"><?php echo get_phrase('nurse');?></option>
+                                        <!-- <option value="nurse"><?php echo get_phrase('nurse');?></option> -->
                                         <option value="pharmacist"><?php echo get_phrase('pharmacist');?></option>
-                                        <option value="laboratorist"><?php echo get_phrase('laboratorist');?></option>
-                                        <option value="accountant"><?php echo get_phrase('accountant');?></option>
+                                        <!-- <option value="laboratorist"><?php echo get_phrase('laboratorist');?></option> -->
+                                        <!-- <option value="accountant"><?php echo get_phrase('accountant');?></option> -->
                                     </select>
     
                                 </div>

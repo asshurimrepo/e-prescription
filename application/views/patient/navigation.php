@@ -51,7 +51,7 @@
 		</li>
         
         <!------blood bank----->
-		<li class="<?php if($page_name == 'view_blood_bank')echo 'dark-nav active';?>">
+		<li class="<?php if($page_name == 'view_blood_bank')echo 'dark-nav active';?>" style="display:none">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?patient/view_blood_bank" >
 					<i class="icon-tint icon-2x"></i>
@@ -60,7 +60,7 @@
 		</li>
         
         <!------bed allotment----->
-		<li class="<?php if($page_name == 'view_admit_history')echo 'dark-nav active';?>">
+		<li class="<?php if($page_name == 'view_admit_history')echo 'dark-nav active';?>" style="display:none">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?patient/view_admit_history" >
 					<i class="icon-hdd icon-2x"></i>
@@ -69,7 +69,7 @@
 		</li>
 		
 		<!------manage report--->
-		<li class="<?php if($page_name == 'view_operation_history')echo 'dark-nav active';?>">
+		<li class="<?php if($page_name == 'view_operation_history')echo 'dark-nav active';?>" style="display:none">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?patient/view_operation_history" >
 					<i class="icon-hospital icon-2x"></i>
@@ -78,7 +78,7 @@
 		</li>
 		
 		<!------manage invoice--->
-		<li class="<?php if($page_name == 'view_invoice')echo 'dark-nav active';?>">
+		<li class="<?php if($page_name == 'view_invoice')echo 'dark-nav active';?>" style="display:none">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?patient/view_invoice" >
 					<i class="icon-credit-card icon-2x"></i>
@@ -87,7 +87,7 @@
 		</li>
 		
 		<!------view payment--->
-		<li class="<?php if($page_name == 'payment_history')echo 'dark-nav active';?>">
+		<li class="<?php if($page_name == 'payment_history')echo 'dark-nav active';?>" style="display:none">
 			<span class="glow"></span>
 				<a href="<?php echo base_url();?>index.php?patient/payment_history" >
 					<i class="icon-money icon-2x"></i>

@@ -23,19 +23,19 @@
                         <span><?php echo get_phrase('prescription');?></span>
                         </a>
                     </div>
-                    <div class="span2 action-nav-button">
+                    <div class="span2 action-nav-button" style="display:none">
                         <a href="<?php echo base_url();?>index.php?patient/view_admit_history">
                         <i class="icon-hdd"></i>
                         <span><?php echo get_phrase('admit_history');?></span>
                         </a>
                     </div>
-                    <div class="span2 action-nav-button">
+                    <div class="span2 action-nav-button" style="display:none">
                         <a href="<?php echo base_url();?>index.php?patient/view_blood_bank">
                         <i class="icon-tint"></i>
                         <span><?php echo get_phrase('blood_bank');?></span>
                         </a>
                     </div>
-                    <div class="span2 action-nav-button">
+                    <div class="span2 action-nav-button" style="display:none">
                         <a href="<?php echo base_url();?>index.php?patient/view_invoice">
                         <i class="icon-credit-card"></i>
                         <span><?php echo get_phrase('view_invoice');?></span>

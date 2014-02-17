@@ -23,19 +23,19 @@
                         <span><?php echo get_phrase('prescription');?></span>
                         </a>
                     </div>
-                    <div class="span2 action-nav-button">
+                    <div class="span2 action-nav-button" style="display:none">
                         <a href="<?php echo base_url();?>index.php?doctor/view_bed_status">
                         <i class="icon-hdd"></i>
                         <span><?php echo get_phrase('bed_allotment');?></span>
                         </a>
                     </div>
-                    <div class="span2 action-nav-button">
+                    <div class="span2 action-nav-button" style="display:none">
                         <a href="<?php echo base_url();?>index.php?doctor/view_blood_bank">
                         <i class="icon-tint"></i>
                         <span><?php echo get_phrase('blood_bank');?></span>
                         </a>
                     </div>
-                    <div class="span2 action-nav-button">
+                    <div class="span2 action-nav-button" style="display:none">
                         <a href="<?php echo base_url();?>index.php?doctor/manage_report">
                         <i class="icon-hospital"></i>
                         <span><?php echo get_phrase('manage_report');?></span>

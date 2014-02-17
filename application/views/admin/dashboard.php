@@ -26,7 +26,7 @@
                     </div>
 
 
-                    <div class="span2 action-nav-button">
+                    <div class="span2 action-nav-button" style="display:none">
                         <a href="<?php echo base_url();?>index.php?admin/view_medicine">
                         <i class="icon-medkit"></i>
                         <span><?php echo get_phrase('medicine');?></span>
